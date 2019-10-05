@@ -5,16 +5,16 @@
 
  body {
     background-color: green;
+    text-align: center;
     color: white;
-    font-family: 'Playfair Display', serif;
-  }
-  
-  #quote-box {
+    font-family:'Playfair Display', serif;
+ }
+#quote-box {
     position: absolute;
     top: 20%;
     left: 10%;
     right: 10%;
-    width: 80%;
+    width: 90%;
     line-height: .5;
   }
   
@@ -73,9 +73,9 @@
   
   #loadQuote {
     position: fixed;
-    width: 12em;
+    width: 300;
     display: inline-block;
-    left: 50%;
+    Left: 50%;
     margin-left: -6em;
     bottom: 150px;
     border-radius: 4px;
