@@ -36,7 +36,7 @@ project 1 - A Random Quote Generator
   	return quotes[randomQuote];
   }
   console.log(getRandomQuote());
-  // Creating printQuote function, and Call the getRandomQuote function, and assign it to a variable.
+  // Creating function printQuote, and Call the getRandomQuote function, and assign it to a variable.
   function printQuote() 
   {
   	var randomQuote = getRandomQuote();
@@ -48,7 +48,7 @@ project 1 - A Random Quote Generator
     {
   		html += '<span class = "citation ">' + ' ' + randomQuote.citation + '</span>';
   	}
-    if (randomQuote.hasOwnProperty('Year') === true) 
+    if (randomQuote.hasOwnProperty('year') === true) 
     {
   		html += '<span class = "year">' + ' ' + randomQuote.year + '</span>' + '</p>'
   	}
